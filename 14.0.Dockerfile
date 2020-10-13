@@ -100,6 +100,7 @@ RUN build_deps=" \
         ipdb \
         git+git://github.com/OCA/openupgradelib.git \
         click-odoo-contrib \
+        geoip2 \
         pg_activity \
         phonenumbers \
     && (python3 -m compileall -q /usr/local/lib/python3.7/ || true) \
